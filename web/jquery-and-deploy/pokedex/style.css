@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pokemon{
+    display: inline-block;
+    vertical-align: top;
+}
+.pokedex{
+    width: 20%;
+    height: 400px;
+    border: 10px solid #5fb3df;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    text-align: center;
+}
+
+.pokedex div{
+    margin-top: 5px;
+}
+
+.picture img{
+    display: block;
+    margin: 0px auto;
+}
+
+.types li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+h3{
+    color:purple;
+}
