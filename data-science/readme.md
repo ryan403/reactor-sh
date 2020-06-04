@@ -15,5 +15,5 @@ svn checkout https://github.com/UserName/trunk/specific_folder_name
 以今天為例就是：
 
 ```bash
-svn checkout [https://github.com/ryan403/reactor-sh/trunk/data-science](https://github.com/ryan403/reactor-sh/trunk/data-science)
+svn checkout https://github.com/ryan403/reactor-sh/trunk/data-science
 ```
