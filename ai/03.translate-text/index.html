@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analyze Sample</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="key.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<h1>翻譯:</h1>
+輸入一段英文，然後按下 <strong>翻譯</strong> 按鈕.
+<br><br>
+Text to translate: 
+<input type="text" name="inputText" id="inputText" 
+       value="Hello, what is your name?" />
+<button id="thisButton">翻譯</button>
+<br><br>
+<div id="wrapper" style="width:1020px; display:table;">
+    <div id="jsonOutput" style="width:600px; display:table-cell;">
+        Response:
+        <br><br>
+        <textarea id="responseTextArea" class="UIInput" style="width:580px; height:400px;"></textarea>
+    </div>
+    <div id="imageDiv" style="width:420px; display:table-cell;">
+        翻譯結果 :
+        <br><br>
+        <p id="translateResult"></p>
+    </div>
+</div>
+</body>
+</html>

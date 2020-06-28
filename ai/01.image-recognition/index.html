@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analyze Sample</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="key.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<h1>Analyze image:</h1>
+輸入一個圖片網址，然後按下 <strong>分析圖片</strong> 按鈕.
+<br><br>
+Image to analyze: 
+<input type="text" name="inputImage" id="inputImage" 
+       value="https://www.petmd.com/sites/default/files/petmd-cat-happy-10.jpg" />
+<button id="thisButton">分析圖片</button>
+<br><br>
+<div id="wrapper" style="width:1020px; display:table;">
+    <div id="jsonOutput" style="width:600px; display:table-cell;">
+        Response:
+        <br><br>
+        <textarea id="responseTextArea" class="UIInput" style="width:580px; height:400px;"></textarea>
+    </div>
+    <div id="imageDiv" style="width:420px; display:table-cell;">
+        Source image:
+        <br><br>
+        <img id="sourceImage" width="400" />
+        <p id="picDescription"></p>
+    </div>
+</div>
+</body>
+</html>
