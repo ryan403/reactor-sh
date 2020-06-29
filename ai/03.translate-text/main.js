@@ -6,14 +6,13 @@ $(document).ready(function(){
 });
 
 function processTranslate() {
-    //修改網址的第一個單字為你的服務網域
-    let uriBase = "https://YOUR_DOMAIN_NAME.cognitiveservices.azure.com/translator/text/v3.0/translate";
+    
+    let uriBase = "https://api.cognitive.microsofttranslator.com/translate";
     let params = {
-        "api-version": 3.0,
-        "from": "en",
+        "api-version": "3.0",
         "to": "zh-Hans",
     };
-    //顯示分析的圖片
+    //取得要翻譯的文字
     let sourceTranslateText = document.getElementById("inputText").value;
     
     //送出分析
