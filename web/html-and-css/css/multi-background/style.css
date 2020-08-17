@@ -1,0 +1,8 @@
+div{
+    width: 32%;
+    height: 180px;
+    border: 1px solid black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("andy.png"),url("classroom.jpeg");
+}

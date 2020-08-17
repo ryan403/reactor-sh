@@ -1,0 +1,28 @@
+div{
+    width: 350px;
+    height: 200px;
+    margin: 100px 0px 0px 100px;
+    background-color: green;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: -40px 0px 0px 115px;
+}
+
+img{
+    -webkit-animation: 'rotate1' 3s linear infinite ;
+    animation: 'rotate1' 3s linear infinite ;
+}
+
+@-webkit-keyframes rotate1{
+  from{transform:rotate(0deg);}
+  to{transform:rotate(360deg);}
+}
+
+@keyframes rotate1{
+  from{transform:rotate(0deg);}
+  to{transform:rotate(360deg);}
+}
