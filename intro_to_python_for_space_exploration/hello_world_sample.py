@@ -71,26 +71,27 @@ print("basalt" in rock)
 #if else--------------------------------
 
 basalt = 1
-if(basalt == 0):
+if basalt == 0:
     print("We have found no basalt rocks.")
 else:
     print("We have found some basalt rocks!")
 print("Done checking basalt rocks.")
 
 basalt = 1
-if(basalt == 0):
+if basalt == 0:
     print("We found no basalt rocks.")
-elif(basalt == 1):
+elif basalt == 1:
     print("We found exactly 1 basalt rock.")
 else:
     print("We found more than 1 basalt rock!")
 print("Done checking basalt rocks.")
 
 #function-------------------------------
-
+import time
 def launchRocket():
     countdown = 5
     while countdown >= 0:
+        time.sleep(1)
         print(countdown)
         countdown = countdown - 1  
     print("Lift Off")
@@ -174,7 +175,6 @@ print("The minimum number of one type of rock was:", min(basalt, breccia, highla
 rock_category = {"basalt":0, "breccia":0, "highland":0, "regolith":0}
 
 def countMoonRocksV2(rock_list):
-    #global rock_category
     for thisRock in rock_list:
         for is_this_category in rock_category.keys():
             if is_this_category in thisRock:
