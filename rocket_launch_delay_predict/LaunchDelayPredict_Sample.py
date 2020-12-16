@@ -111,8 +111,7 @@ tree_graph_to_png(tree=tree_model, feature_names=X.columns.values, class_names=[
 #        'Temp at Launch Time', 'Hist High Temp', 'Hist Low Temp',
 #        'Hist Ave Temp', 'Precipitation at Launch Time',
 #        'Hist Ave Precipitation', 'Wind Direction', 'Max Wind Speed',
-#        'Visibility', 'Wind Speed at Launch Time', 'Hist Ave Max Wind Speed',
-#        'Hist Ave Visibility', 'Condition']
+#        'Visibility', 'Wind Speed at Launch Time', 'Condition']
 
 data_input = [ 1.  , 75.  , 68.  , 71.  ,  0.  , 75.  , 55.  , 65.  ,  0.  , 0.08,  0.  , 16.  , 15.  ,  0.  ,  0. ]
 
