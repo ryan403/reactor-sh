@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Recognition Sample</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="key.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+
+<h1>信用卡卡號辨識</h1>
+輸入信用卡圖片網址，然後按下<strong>【Get Number】</strong>按鈕
+<br><br>
+Image to read:
+<input type="text" name="inputImage" id="inputImage"
+    value="https://www.snb.com/stuff/contentmgr/files/0/39deaa2de12c64deca866c0cce11045c/misc/personal_credit_card.png" />
+<button onclick="processImage()">Get Number</button>
+<br><br>
+<div id="wrapper" style="width:1020px; display:table;">
+    <div id="jsonOutput" style="width:600px; display:table-cell;">
+        Response:
+        <br><br>
+        <textarea id="responseTextArea" class="UIInput"
+                  style="width:580px; height:400px;"></textarea>
+    </div>
+    <div id="imageDiv" style="width:420px; display:table-cell;">
+        Source image:
+        <br><br>
+        <img id="sourceImage" width="400" height="250" />
+        <p id="RecognitionCardNumber">XXXX XXXX XXXX XXXX</p>
+    </div>
+</div>
+</body>
+</html>
