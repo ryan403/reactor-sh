@@ -1,0 +1,44 @@
+body{
+    background-color: gainsboro;
+}
+#green_top{
+    width: 600px;
+    height:100px;
+    background-color: green;
+}
+
+#main{
+    margin-top: 15px;
+    display: flex;
+}
+
+#left{
+    width: 150px;
+    height:250px;
+    background-color: blue;
+}
+
+#right{
+    margin-left: 20px;
+    width: 430px;
+    height: 300px;
+    background-color: red;
+}
+
+#right_top{
+    display: flex;
+}
+
+.yellow{
+    width: 110px;
+    height: 110px;
+    background-color:yellow;
+    margin: 10px;
+}
+
+#right_bottom{
+    margin: 10px;
+    width: 370px;
+    height: 100px;
+    background-color:purple;
+}

@@ -1,0 +1,23 @@
+div{
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#BoxContent{
+    padding-bottom: 150px;
+    border: 1px dashed black;
+}
+
+#BoxBorder{
+    background-color: yellow;
+}
+
+#BoxPadding{
+    background-color: white;
+}
+
+#BoxMargin{
+    border: 1px dashed black;
+}
